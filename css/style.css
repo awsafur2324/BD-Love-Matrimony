@@ -1542,7 +1542,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .download_area .download_app_icon h3 span {
-  color: #e74c3c;
+  color: #ea3521;
   font-weight: bold;
 }
 
@@ -2600,6 +2600,13 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .register_members_slider .r_members_inner .item {
   text-align: center;
 }
+.register_members_slider .r_members_inner .item img{
+  border-radius: 50%;
+}
+.register_members_slider .r_members_inner .item:hover img{
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
 
 .register_members_slider .r_members_inner .item h4 {
   font-size: 16px;
@@ -2827,7 +2834,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .video_area .video_row .overlay .overlay_bg {
-  background: url(../img/video_bg.jpg) no-repeat;
+  background: url(../img/L1\ bg.png) no-repeat;
   position: absolute;
   width: 100%;
   height: 100%;
